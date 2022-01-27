@@ -195,3 +195,6 @@
      containers.split('|')
          .forEach(container => new Termynal(container))
  }
+
+// test name-expand
+

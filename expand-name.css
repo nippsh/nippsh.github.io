@@ -1,0 +1,25 @@
+h1 {
+  width: 400px;
+}
+
+h1 span {
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+
+h1 span:nth-child(even){
+  letter-spacing: -40px;
+  color: #559CA1;
+}
+
+h1:hover span:nth-child(even){
+  letter-spacing: 0;
+}
+
+h1:hover span:nth-child(1)::first-letter,
+h1:hover span:nth-child(3){
+  text-transform: uppercase;
+}
+
